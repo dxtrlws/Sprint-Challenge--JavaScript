@@ -46,6 +46,8 @@ class CubeMaker extends CuboidMaker {
   }
 }
 
+//Not sure what the stretch goal is asking since the volumne and surface area of a cube is the same formula as for the CubiodMaker. 
+
 const cube = new CubeMaker(4, 10, 20);
 
 console.log(cube.volume());
